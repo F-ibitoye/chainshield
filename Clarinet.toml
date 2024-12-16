@@ -5,8 +5,23 @@ authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
+[contracts.insurance-pool-token]
+path = "contracts/insurance-pool-token.clar"
+
+#[contracts.insurance-pool]
+#path = "contracts/insurance-pool.clar"
+
+[contracts.token-trait]
+path = "contracts/token-trait.clar"
+
+[contracts.liquidity-management]
+path = "contracts/liquidity-management.clar"
+
+[contracts.policy-management]
+path = "contracts/policy-management.clar"
+
+[contracts.risk-assessment]
+path = "contracts/risk-assessment.clar"
 
 [repl.analysis]
 passes = ["check_checker"]
